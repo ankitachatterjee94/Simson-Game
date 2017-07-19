@@ -28,7 +28,7 @@ function switch1(){
     startStop = !startStop;
     if(startStop)
         {
-            document.getElementById('toggle').style.left = '30px';
+            document.getElementById('toggle').style.left = '30px';            
         }
     else
         {
@@ -47,7 +47,7 @@ function reset(){
     i = -1;
     loopC = 0; 
     clearInterval(show);
-    document.getElementById('cNumber').innerHTML = count;
+    document.getElementById('cNumber').innerHTML = '--';
     document.getElementById('toggle').style.left = '0px';
 }
 
