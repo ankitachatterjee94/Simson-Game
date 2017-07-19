@@ -14,6 +14,7 @@ function scroll(){
     document.getElementById('b2').disabled=true;
     document.getElementById('b3').disabled=true;
     document.getElementById('b4').disabled=true;
+    document.getElementById('b6').disabled=true;
     show = setInterval(function(){
         blink(generatedArray[j]);
         j++;
@@ -52,22 +53,21 @@ function reset(){
 
 function start1(){
     clearInterval(show);
-    generatedArray=[];
     if(startStop)
         {
-            clearInterval(show);
             startButton = 1;
             count = 1;
             generatedArray = [];
             userArray = [];
             i = -1;
             document.getElementById('cNumber').innerHTML = '--';
-            setTimeout(function(){nextMove(); clearInterval(show);
+            setTimeout(function(){nextMove();
             document.getElementById('cNumber').innerHTML = count;},400);
             setTimeout(function(){document.getElementById('b1').disabled=false;
             document.getElementById('b2').disabled=false;
             document.getElementById('b3').disabled=false;
-            document.getElementById('b4').disabled=false;},500);
+            document.getElementById('b4').disabled=false
+            document.getElementById('b6').disabled=false;;},500);
         }
         
 }
@@ -163,7 +163,8 @@ function checklogic(){
                     setTimeout(function(){document.getElementById('b1').disabled=false;
                      document.getElementById('b2').disabled=false;
                      document.getElementById('b3').disabled=false;
-                     document.getElementById('b4').disabled=false;},blinkDur+generatedArray.length*1800);         
+                     document.getElementById('b4').disabled=false;
+                     document.getElementById('b6').disabled=false;},blinkDur+generatedArray.length*1800);         
                 }
         }
         if(i>=generatedArray.length-1)
@@ -177,7 +178,8 @@ function checklogic(){
             setTimeout(function(){document.getElementById('b1').disabled=false;
                      document.getElementById('b2').disabled=false;
                      document.getElementById('b3').disabled=false;
-                     document.getElementById('b4').disabled=false;},blinkDur+generatedArray.length*950);         
+                     document.getElementById('b4').disabled=false;
+                     document.getElementById('b6').disabled=false;},blinkDur+generatedArray.length*950);         
         } 
     }                    
     
