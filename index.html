@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="prog.js"></script>
+    </head>
+    <body background="Background.png">
+        <div class="outer-circle">
+            <input type="button" id="b1" onclick="f1()"></button>
+            <input type="button" id="b2" onclick="f2()"></button>
+            <input type="button" id="b3" onclick="f3()"></button>
+            <input type="button" id="b4" onclick="f4()"></button>
+            <div class="inner-circle"><p><b><font size="18">Simon</font></b></p>
+                <div class="strict">
+                    <input type="button" id="b5" onclick="strict1()"></button><p><font size="1"><br>STRICT</font></p>
+                </div>
+                <div class="blink" id="blinkT">
+                </div>
+                <div class="start">
+                    <input type="button" id="b6" onclick="start1()"></button><p><font size="1"><br>START</font></p>
+                </div>
+                <font size=5><div id="cNumber" class="count">--</div></font>
+                <div class="countext"><font size="1"><br><br>COUNT</br></br></font>
+                </div>
+                <div class="switch">
+                    <span id="text1">ON</span>
+                    <span id="text2">OFF</span>
+                    <input type="button" id="toggle" onclick="switch1()">
+                    <input type="button" id="toggle2" onclick="switch1()">
+                </div>
+            </div>
+        </div>
+    <audio id="b1sound" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio id="b2sound" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio id="b3sound" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio id="b4sound" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+    <audio id="soundbuttonWrong" src="http://www.freesound.org/data/previews/331/331912_3248244-lq.mp3"></audio>
+    </body>
+</html>

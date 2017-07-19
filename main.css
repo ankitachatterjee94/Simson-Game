@@ -1,0 +1,181 @@
+*{
+    outline: 0;
+}
+.outer-circle {
+        	width: 400px;
+            height: 400px;
+            background: black;
+            position: absolute;
+            top: 150px;
+            left: 456px;
+            border-radius: 200px;
+        }
+.inner-circle {
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            top: 96px;
+            left: 94px;
+            position: absolute;
+	        background: white;
+            border-radius: 140px;  
+            border: 8px solid black;
+        }
+.strict {
+            width: 24px;
+            height: 24px;
+            background: yellow;
+            position: absolute;
+            top: 90px;
+            left: 128px;
+            border-radius: 15px;
+            border: 1.5px solid black;
+            box-shadow: 0px 0px 2px 2px black;
+        }
+.start {
+            width: 24px;
+            height: 24px;
+            background: red;
+            position: absolute;
+            top: 90px;
+            left: 92px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 3px black;
+            border: 1.5px solid black;
+            box-shadow: 0px 0px 2px 2px black;
+        }
+.blink {
+            width: 6px;
+            height: 6px;
+            background: brown;
+            position: absolute;
+            top: 75px;
+            left: 137px;
+            border-radius: 4px;
+            border: 0.2px solid black;
+        }
+.count {
+            width: 44px;
+            height: 28px;
+            background: brown;
+            position: absolute;
+            top: 86px;
+            left: 34px;
+            border-radius: 80px;
+            border: 1.5px solid black;
+        }    
+.countext{
+            width: 44px;
+            height: 28px;
+            position: absolute;
+            top: 97px;
+            left: 33px;
+}   
+#b1 {
+     width: 200px;
+     height: 200px;
+     margin-top: 0;
+     background: green;
+     border-top-left-radius: 100%;
+     border: 12px solid black;
+}
+#b2 {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     top: 0px;
+     left: 200px;
+     background: red;
+     border-top-right-radius: 100%;
+     border: 12px solid black;
+}
+#b3 {
+     width: 200px;
+     height: 200px;
+     margin-bottom: 0px;
+     background: yellow;
+     border-bottom-left-radius: 100%;
+     border: 12px solid black;
+}
+#b4 {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     top: 200px;
+     left: 200px;
+     background: blue;
+     border-bottom-right-radius: 100%;
+     border: 12px solid black;
+}
+#b5 {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    border-radius: 15px;
+    border: 1.5px solid transparent;
+}
+#b5:active{
+    box-shadow: 0px 0px 1px 1px black;
+    margin-top: 2px;
+}
+#b6 {
+     width: 24px;
+     height: 24px;
+     background: transparent;
+     position: absolute;
+     top: -1px;
+     left: 0px;
+     border-radius: 15px;
+     border: 1.5px solid transparent;     
+}
+#b6:active{
+    box-shadow: 0px 0px 1px 1px black;
+    margin-top: 2px;
+}
+.switch {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 148px;
+    left: 70px;
+    background: black; 
+    border: 2px solid black;
+    border-radius: 20px;   
+}
+#toggle {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: blue;
+    border: 0.2px solid transparent;
+    border-radius: 20px; 
+}
+#toggle2 {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    border: 0.2px solid transparent;
+    border-radius: 20px; 
+}
+#text1 {
+    font-size: 1vw;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 36px;
+    color: black;
+}
+#text2 {
+    font-size: 1vw;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -60px;
+    color: black;
+}
