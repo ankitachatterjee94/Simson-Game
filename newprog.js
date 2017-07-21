@@ -33,7 +33,7 @@ function switch1(){
     startStop = !startStop; //works as a NOT gate
     if(startStop)
         {
-            document.getElementById('toggle').style.left = '30px'; //switch shifts to ON 
+            document.getElementById('toggle').style.left = '15px'; //switch shifts to ON 
             document.getElementById('cNumber').innerHTML = '--';           
         }
     else
@@ -120,50 +120,22 @@ function blink(number){
     }
 }
 
-//checks the user button click
-function f1(){
-    if(startButton){
-        userArray.push(1);
-        blink(1);
-        checklogic();
-    }
-}
-
-function f2(){
-    if(startButton){
-        userArray.push(2);
-        blink(2);
-        checklogic();
-    }
-}
-
-function f3(){
-    if(startButton){
-        userArray.push(3);
-        blink(3);
-        checklogic();
-    }
-}
-
-function f4(){
-    if(startButton){
-        userArray.push(4);
-        blink(4);
-        checklogic();
-    }
-}
-/*function buttonClick(btn){
+//checks the user button
+function buttonClick(btn){
     if(startButton){
         userArray.push(btn);
         blink(btn);
         checklogic();
     }
-}*/
+}
 
 //checks whether the strict mode in ON
 function strict1(){
     strictMode = !strictMode;
-    strictMode?document.getElementById('blinkT').style.background="red":document.getElementById('blinkT').style.background="black";
+    if(startStop)
+        {
+            strictMode?document.getElementById('blinkT').style.background="red":document.getElementById('blinkT').style.background="black";
+        }    
 }
 
 //matching of user sequence with the generated sequence

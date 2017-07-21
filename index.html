@@ -1,29 +1,33 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">        
         <script src="newprog.js"></script>
+        <title>Simon Game</title>
     </head>
     <body background="Background.png">
         <div class="outer-circle">
-            <input type="button" id="b1" onclick="f1()"></button>
-            <input type="button" id="b2" onclick="f2()"></button>
-            <input type="button" id="b3" onclick="f3()"></button>
-            <input type="button" id="b4" onclick="f4()"></button>
-            <div class="inner-circle"><p><b><font size="18">Simon</font></b></p>
-                <div class="strict">
-                    <input type="button" id="b5" onclick="strict1()"></button><p><font size="1"><br>STRICT</font></p>
+            <input type="button" id="b1" onclick="buttonClick(1)"></button>
+            <input type="button" id="b2" onclick="buttonClick(2)"></button>
+            <input type="button" id="b3" onclick="buttonClick(3)"></button>
+            <input type="button" id="b4" onclick="buttonClick(4)"></button>
+            <div class="inner-circle"><p id="simon-text"><b>Simon<sup><font size="4">®</font></sup></b></p>
+                <div class="strict"><p id="strict-text">STRICT</p>
+                    <input type="button" id="b5" onclick="strict1()"></button>
                 </div>
                 <div class="blink" id="blinkT">
                 </div>
                 <div class="start">
-                    <input type="button" id="b6" onclick="start1()"></button><p><font size="1"><br>START</font></p>
+                    <input type="button" id="b6" onclick()="start1()"><p id="start-text">START</p>
                 </div>
                 <font size=5><div id="cNumber" class="count"></div></font>
-                <div class="countext"><font size="1"><br><br>COUNT</br></br></font>
+                <div class="countext"><p id="count-text"><br>COUNT<p>
                 </div>
                 <div class="switch">
-                    <span id="text1">ON</span>
-                    <span id="text2">OFF</span>
+                    <span id="on-text">ON</span>
+                    <span id="off-text">OFF</span>
                     <input type="button" id="toggle" onclick="switch1()">
                     <input type="button" id="toggle2" onclick="switch1()">
                 </div>
