@@ -69,7 +69,7 @@ function start1(){
             document.getElementById('cNumber').innerHTML = '--';
             setTimeout(function(){
                     nextMove();
-                    document.getElementById('cNumber').innerHTML = count;
+                    document.getElementById('cNumber').innerHTML = '0'+count;
                   },400);
             setTimeout(function(){
                     actButton();
@@ -155,6 +155,7 @@ function checklogic(){
                     deactButton(); 
                     if(strictMode)
                         {
+                            document.getElementById('cNumber').innerHTML = '';
                             setTimeout(function(){
                                 document.getElementById('cNumber').innerHTML = '!!';
                                 document.getElementById('Wrong').play();
@@ -166,12 +167,13 @@ function checklogic(){
                         }
                     else
                         {
+                            document.getElementById('cNumber').innerHTML = '';
                             setTimeout(function(){
                                 document.getElementById('cNumber').innerHTML = '!!';
                                 document.getElementById('Wrong').play();
-                              },500);
+                              },700);
                             setTimeout(function(){
-                                document.getElementById('cNumber').innerHTML = count;
+                                document.getElementById('cNumber').innerHTML = '0'+count;
                               },1200);
                             userArray=[];
                             i=-1;
@@ -187,7 +189,7 @@ function checklogic(){
             {
                 count++;
                 setTimeout(function(){
-                    document.getElementById('cNumber').innerHTML = count;
+                    document.getElementById('cNumber').innerHTML = '0'+count;
                   },1000);
                 i = -1;
                 userArray = [];
