@@ -5,9 +5,9 @@
         	width: 400px;
             height: 400px;
             background: #333333;
-            position: absolute;
-            top: 150px;
-            left: 456px;
+            position: relative;
+            margin: auto;
+            margin-top: 140px;
             border-radius: 240px;
             border: 8px solid #333333;
         }
