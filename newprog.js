@@ -27,7 +27,7 @@ function deactButton(){
     document.getElementById('b6').disabled = true;
 }
 
-//checks whether the switch in ON or OFF
+//checks whether the switch is ON or OFF
 function switch1(){
     clearInterval(show);
     startStop = !startStop; //works as a NOT gate
