@@ -2,7 +2,7 @@
     outline: 0;
 }
 .outer-circle {
-        	width: 400px;
+            width: 400px;
             height: 400px;
             background: #333333;
             position: relative;
@@ -18,7 +18,7 @@
             top: 93px;
             left: 89px;
             position: absolute;
-	        background: #ece7ee;
+	    background: #ece7ee;
             border-radius: 140px;  
             border: 12px solid #333333;
         }
