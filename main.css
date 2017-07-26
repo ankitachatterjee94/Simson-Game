@@ -1,14 +1,15 @@
 *{
-    outline: 0;
+    outline: none;
 }
 .outer-circle {
             width: 30vw;
             height: 30vw;
             background: #333333;
-            position: relative;
+            position: absolute;
             margin: auto;
             top: 50%;
-            transform: translateY(-50%);
+            left: 50%;
+            transform: translate(-50%,-50%);
             border-radius: 60%;
             border: 0.6vw solid #333333;
         }
@@ -30,7 +31,7 @@
             background: yellow;
             position: absolute;
             top: 42%;
-            left: 68%;
+            left: 67.6%;
             border-radius: 1.2vw;
             border: 0.2vw solid #333333;
             box-shadow: 0vw 0vw 0.1vw 0.1vw #333333;
@@ -44,7 +45,6 @@
             top: 42%;
             left: 45%;
             border-radius: 1.2vw;
-            box-shadow: 0vw 0vw 0.1vw 0.1vw #333333;
             border: 0.2vw solid #333333;
             box-shadow: 0vw 0vw 0.1vw 0.1vw #333333;
        }
@@ -116,9 +116,9 @@
     border-radius: 75%;
     border: none;
 }
-#b5:active{
-    box-shadow: 0vw 0vw 0.1vw 0.1vw #292929;
-    margin-top: 0.007vw;  
+#b5:active {
+    box-shadow: 0vw 0vw 0.12vw 0.12vw #292929;
+    margin-top: 0.05vw;
 }
 #b6 {
      width: 1.7vw;
@@ -130,9 +130,9 @@
      border-radius: 75%;
      border: 0.2vw solid transparent;     
 }
-#b6:active{
-    box-shadow: 0vw 0vw 0.1vw 0.1vw #292929;
-    margin-top: 0.007vw;
+#b6:active {
+    box-shadow: 0vw 0vw 0.12vw 0.13vw #292929;
+    margin-top: 0.05vw;
 }
 .switch {
     width: 2.4vw;
@@ -151,8 +151,8 @@
     top: 0vw;
     left: 0vw;
     background: #1c8cff;
-    border: 0.0002vw solid transparent;
-    border-radius: 0.3vw; 
+    box-sizing: border-box;
+    border: none;
 }
 #toggle2 {
     width: 2.4vw;
@@ -161,8 +161,8 @@
     top: 0vw;
     left: 0vw;
     background: transparent;
-    border: 0.0002vw solid transparent;
-    border-radius: 0vw; 
+    box-sizing: border-box;
+    border: none; 
 }
 #on-text {
     font-size: 1vw;
@@ -207,4 +207,13 @@
     top: 9.18vw;
     left: 2.6vw;
     color: #333333;
+}
+#cNumber {
+    font-size: 1.6vw;
+}
+input:focus {
+    outline: none;
+}
+input::-moz-focus-inner {
+    border: 0;
 }
