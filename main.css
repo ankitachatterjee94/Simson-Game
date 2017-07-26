@@ -2,8 +2,8 @@
     outline: none;
 }
 .outer-circle {
-            width: 30vw;
-            height: 30vw;
+            width: 60vmin;
+            height: 60vmin;
             background: #333333;
             position: absolute;
             margin: auto;
@@ -11,205 +11,206 @@
             left: 50%;
             transform: translate(-50%,-50%);
             border-radius: 60%;
-            border: 0.6vw solid #333333;
+            border: 1.2vmin solid #333333;
         }
 .inner-circle {
             text-align: center;
-            width: 15vw;
-            height: 15vw;
+            width: 30vmin;
+            height: 30vmin;
             top: 22%;
             left: 21.5%;
             position: absolute;
 	    background: #ece7ee;
             border-radius: 70%;  
-            border: 1vw solid #333333;
+            border: 2vmin solid #333333;
         }
 .strict {
-            width: 1.7vw;
-            height: 1.7vw;
+            width: 3.4vmin;
+            height: 3.4vmin;
             text-align: center;
             background: yellow;
             position: absolute;
             top: 42%;
             left: 67.6%;
-            border-radius: 1.2vw;
-            border: 0.2vw solid #333333;
-            box-shadow: 0vw 0vw 0.1vw 0.1vw #333333;
+            border-radius: 2.4vmin;
+            border: 0.4vmin solid #333333;
+            box-shadow: 0vw 0vw 0.2vmin 0.2vmin #333333;
         }
 .start {
-            width: 1.7vw;
-            height: 1.7vw;
+            width: 3.4vmin;
+            height: 3.4vmin;
             text-align: center;
             background: red;
             position: absolute;
             top: 42%;
             left: 45%;
-            border-radius: 1.2vw;
-            border: 0.2vw solid #333333;
-            box-shadow: 0vw 0vw 0.1vw 0.1vw #333333;
+            border-radius: 2.4vmin;
+            border: 0.4vmin solid #333333;
+            box-shadow: 0vmin 0vmin 0.2vmin 0.2vmin #333333;
        }
 .blink {
-            width: 0.3vw;
-            height: 0.3vw;
+            width: 0.6vmin;
+            height: 0.6vmin;
             background: #333333;
             position: absolute;
             top: 36%;
             left: 73.5%;
-            border-radius: 0.4vw;
-            border: 0.00001vw solid #333333;
+            border-radius: 0.8vmin;
+            border: 0.00002vmin solid #333333;
         }
 .count {
-            width: 3.2vw;
-            height: 1.9vw;
+            width: 6.4vmin;
+            height: 3.8vmin;
             text-align: center;
             color: red;
             background: #33040b;
             position: absolute;
             top: 40.5%;
             left: 12%;
-            border-radius: 0.6vw;
-            border: 0.2vw solid #333333;
+            border-radius: 1.2vmin;
+            border: 0.4vmin solid #333333;
         }    
 #b1 {
-     width: 15vw;
-     height: 15vw;
+     width: 30vmin;
+     height: 30vmin;
      margin-top: 0;
      background: #00a845;
      border-top-left-radius: 100%;
-     border: 0.8vw solid #333333;
+     border: 1.6vmin solid #333333;
 }
 #b2 {
-     width: 15vw;
-     height: 15vw;
+     width: 30vmin;
+     height: 30vmin;
      position: absolute;
-     top: 0px;
-     left: 15vw;
+     top: 0vmin;
+     left: 30vmin;
      background: #a10b0f;
      border-top-right-radius: 100%;
-     border: 0.8vw solid #333333;
+     border: 1.6vmin solid #333333;
 }
 #b3 {
-     width: 15vw;
-     height: 15vw;
-     margin-bottom: 0vw;
+     width: 30vmin;
+     height: 30vmin;
+     margin-bottom: 0vmin;
      background: #cda800;
      border-bottom-left-radius: 100%;
-     border: 0.8vw solid #333333;
+     border: 1.6vmin solid #333333;
 }
 #b4 {
-     width: 15vw;
-     height: 15vw;
+     width: 30vmin;
+     height: 30vmin;
      position: absolute;
-     top: 15vw;
-     left: 15vw;
+     top: 30vmin;
+     left: 30vmin;
      background: #014891;
      border-bottom-right-radius: 100%;
-     border: 0.8vw solid #333333;
+     border: 1.6vmin solid #333333;
 }
 #b5 {
-    width: 1.7vw;
-    height: 1.7vw;
+    width: 3vmin;
+    height: 3vmin;
     background: transparent;
     position: absolute;
-    top: 0vw;
-    left: 0vw;
+    top: 0vmin;
+    left: 0vmin;
     border-radius: 75%;
     border: none;
 }
 #b5:active {
-    box-shadow: 0vw 0vw 0.12vw 0.12vw #292929;
-    margin-top: 0.05vw;
+    box-shadow: 0vmin 0vmin 0.24vmin 0.24vmin #292929;
+    margin-top: 0.1vmin;
 }
 #b6 {
-     width: 1.7vw;
-     height: 1.7vw;
+     width: 3vmin;
+     height: 3vmin;
      background: transparent;
      position: absolute;
-     top: 0vw;
-     left: 0vw;
+     top: 0vmin;
+     left: 0vmin;
      border-radius: 75%;
-     border: 0.2vw solid transparent;     
+     border: none;;     
 }
 #b6:active {
-    box-shadow: 0vw 0vw 0.12vw 0.13vw #292929;
-    margin-top: 0.05vw;
+    box-shadow: 0vmin 0vmin 0.24vmin 0.24vmin #292929;
+    margin-top: 0.1vmin;
 }
 .switch {
-    width: 2.4vw;
-    height: 1.2vw;
+    width: 4.8vmin;
+    height: 2.4vmin;
     position: absolute;
     top: 76%;
     left: 40%;
     background: #333333; 
-    border: 0.2vw solid #333333;
-    border-radius: 0.35vw;   
+    border: 0.4vmin solid #333333;
+    border-radius: 0.7vmin;   
 }
 #toggle {
     width: 50%;
-    height: 1.2vw;
+    height: 2.4vmin;
     position: absolute;
-    top: 0vw;
-    left: 0vw;
+    top: -0.1vmin;
+    left: 0vmin;
     background: #1c8cff;
+    border-radius: 30%;
     box-sizing: border-box;
     border: none;
 }
 #toggle2 {
-    width: 2.4vw;
-    height: 1.2vw;
+    width: 4.8vmin;
+    height: 2.4vmin;
     position: absolute;
-    top: 0vw;
-    left: 0vw;
+    top: 0vmin;
+    left: 0vmin;
     background: transparent;
     box-sizing: border-box;
     border: none; 
 }
 #on-text {
-    font-size: 1vw;
+    font-size: 2vmin;
     position: absolute;
-    margin-top: -0.1vw;
-    margin-left: 2vw;
+    margin-top: -0.2vmin;
+    margin-left: 4vmin;
     color: #333333;
     font-family: 'Oswald';
 }
 #off-text {
-    font-size: 1vw;
+    font-size: 2vmin;
     position: absolute;
-    margin-top: -0.1vw;
-    margin-left: -3.2vw;
+    margin-top: -0.2vmin;
+    margin-left: -6.4vmin;
     color: #333333;
     font-family: 'Oswald';
 }
 #simon-text {
-    font-size: 3.2vw;
+    font-size: 6.4vmin;
     font-family: 'Alfa Slab One' , cursive;
-    margin-top: 1.7vw;
+    margin-top: 3.2vmin;
     color: #292929;
 }
 #strict-text {
-    font-size: 1vw;
+    font-size: 2vmin;
     font-family: 'VT323';
-    margin-top: 2.65vw;
-    margin-left: -0.2vw;
+    margin-top: 5.3vmin;
+    margin-left: -0.4vmin;
     color: #333333;
 }
 #start-text {
-    font-size: 1vw;
+    font-size: 2vmin;
     font-family: 'VT323';
-    margin-top: 2.65vw;
-    margin-left: -0.1vw;
+    margin-top: 5.3vmin;
+    margin-left: -0.2vmin;
     color: #333333;
 }
 #count-text {
-    font-size: 1vw;
+    font-size: 2vmin;
     font-family: 'VT323';
     position: absolute;
-    top: 9.18vw;
-    left: 2.6vw;
+    top: 18.34vmin;
+    left: 5.2vmin;
     color: #333333;
 }
 #cNumber {
-    font-size: 1.6vw;
+    font-size: 3.2vmin;
 }
 input:focus {
     outline: none;
