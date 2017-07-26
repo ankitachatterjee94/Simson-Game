@@ -10,7 +10,7 @@
             top: 50%;
             transform: translateY(-50%);
             border-radius: 60%;
-            border: 0.4vw solid #333333;
+            border: 0.6vw solid #333333;
         }
 .inner-circle {
             text-align: center;
@@ -145,7 +145,7 @@
     border-radius: 0.35vw;   
 }
 #toggle {
-    width: 1.2vw;
+    width: 50%;
     height: 1.2vw;
     position: absolute;
     top: 0vw;
