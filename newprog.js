@@ -33,7 +33,7 @@ function switch1(){
     startStop = !startStop; //works as a NOT gate
     if(startStop)
         {
-            document.getElementById('toggle').style.left = '15px'; //switch shifts to ON 
+            document.getElementById('toggle').style.left = '1.2vw'; //switch shifts to ON 
             document.getElementById('cNumber').innerHTML = '--';           
         }
     else
