@@ -286,24 +286,24 @@
 #strict-text {
     font-size: 2vmin;
     font-family: 'VT323';
-    margin-top: 5.3vmin;
+    margin-top: 5.5vmin;
     margin-left: -0.4vmin;
     color: #333333;
 
     font-size: 2vm;
-    margin-top: 5.3vm;
+    margin-top: 5.5vm;
     margin-left: -0.4vm;
 }
 #start-text {
     font-size: 2vmin;
     font-family: 'VT323';
     margin-top: 5.3vmin;
-    margin-left: -0.1vmin;
+    margin-left: -1.1vmin;
     color: #333333;
 
     font-size: 2vm;
     margin-top: 5.3vm;
-    margin-left: -0.2vm;
+    margin-left: -1.1vm;
 }
 #count-text {
     font-size: 2vmin;
