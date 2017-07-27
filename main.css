@@ -105,7 +105,7 @@
      height: 30vmin;    
      margin-top: 0;
      background: #00a845;
-     border-top-left-radius: 100%;
+     border-radius: 100% 0 0 0;
      border: 1.6vmin solid #333333;
 
      width: 30vm;
@@ -119,7 +119,7 @@
      top: 0vmin;
      left: 30vmin;    
      background: #a10b0f;
-     border-top-right-radius: 100%;
+     border-radius: 0 100% 0 0;
      border: 1.6vmin solid #333333;
 
      width: 30vm;
@@ -133,7 +133,7 @@
      height: 30vmin;
      margin-bottom: 0vmin;
      background: #cda800;
-     border-bottom-left-radius: 100%;
+     border-radius: 0 0 0 100%;
      border: 1.6vmin solid #333333;
 
      width: 30vm;
@@ -148,7 +148,7 @@
      top: 30vmin;
      left: 30vmin;   
      background: #014891;
-     border-bottom-right-radius: 100%;
+     border-radius: 0 0 100% 0;
      border: 1.6vmin solid #333333;
 
      width: 30vm;
