@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
@@ -13,7 +14,7 @@
             <input type="button" id="b2" onclick="buttonClick(2)"></button>
             <input type="button" id="b3" onclick="buttonClick(3)"></button>
             <input type="button" id="b4" onclick="buttonClick(4)"></button>
-            <div class="inner-circle"><p id="simon-text"><b>Simon<sup><font size="4">®</font></sup></b></p>
+            <div class="inner-circle"><p id="simon-text"><b>Simon<sup>&#174</sup></b></p>
                 <div class="strict"><p id="strict-text">STRICT</p>
                     <input type="button" id="b5" onclick="strict1()"></button>
                 </div>
@@ -22,8 +23,8 @@
                 <div class="start">
                     <input type="button" id="b6" onclick="start1()"><p id="start-text">START</p>
                 </div>
-                <font size=5><div id="cNumber" class="count"></div></font>
-                <div class="countext"><p id="count-text"><br>COUNT<p>
+                <div id="cNumber" class="count"></div>
+                <div id="count-text">COUNT
                 </div>
                 <div class="switch">
                     <span id="on-text">ON</span>
@@ -33,10 +34,15 @@
                 </div>
             </div>
         </div>
-    <audio id="b1sound" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
-    <audio id="b2sound" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
-    <audio id="b3sound" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
-    <audio id="b4sound" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
-    <audio id="Wrong" src="http://www.freesound.org/data/previews/331/331912_3248244-lq.mp3"></audio>
+    <audio id="b1sound" src="Music/simonSound0.ogg"></audio>
+    <audio id="b2sound" src="Music/simonSound1.ogg"></audio>
+    <audio id="b3sound" src="Music/simonSound2.ogg"></audio>
+    <audio id="b4sound" src="Music/simonSound3.ogg"></audio>
+    <audio id="Wrong" src="Music/buzz_sound.ogg"></audio>
+    <audio id="b1sound" src="Music/mp3file/simonSound0.mp3"></audio>
+    <audio id="b2sound" src="Music/mp3file/simonSound1.mp3"></audio>
+    <audio id="b3sound" src="Music/mp3file/simonSound2.mp3"></audio>
+    <audio id="b4sound" src="Music/mp3file/simonSound3.mp3"></audio>
+    <audio id="Wrong" src="Music/mp4file/buzz_sound.mp3"></audio>
     </body>
 </html>
