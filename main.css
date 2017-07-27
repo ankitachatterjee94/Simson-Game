@@ -106,6 +106,7 @@
      margin-top: 0;
      background: #00a845;
      border-radius: 100% 0 0 0;
+     -webkit-border-radius: 100% 0 0 0;
      border: 1.6vmin solid #333333;
 
      width: 30vm;
@@ -119,6 +120,7 @@
      top: 0vmin;
      left: 30vmin;    
      background: #a10b0f;
+     -webkit-border-radius: 0 100% 0 0;
      border-radius: 0 100% 0 0;
      border: 1.6vmin solid #333333;
 
@@ -134,6 +136,7 @@
      margin-bottom: 0vmin;
      background: #cda800;
      border-radius: 0 0 0 100%;
+     -webkit-border-radius: 0 0 0 100%;
      border: 1.6vmin solid #333333;
 
      width: 30vm;
@@ -149,6 +152,7 @@
      left: 30vmin;   
      background: #014891;
      border-radius: 0 0 100% 0;
+     -webkit-border-radius: 0 0 100% 0;
      border: 1.6vmin solid #333333;
 
      width: 30vm;
