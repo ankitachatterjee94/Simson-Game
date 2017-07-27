@@ -327,9 +327,9 @@ sup {
 
     font-size: 4vm;
 }
-input:focus {
+button:focus {
     outline: none;
 }
-input::-moz-focus-inner {
+button::-moz-focus-inner {
     border: 0;
 }
