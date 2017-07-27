@@ -3,7 +3,7 @@
 }
 .outer-circle {
             width: 60vmin;
-            height: 60vmin;
+            height: 60vmin;          
             background: #333333;
             position: absolute;
             margin: auto;
@@ -12,21 +12,29 @@
             transform: translate(-50%,-50%);
             border-radius: 60%;
             border: 1.2vmin solid #333333;
+
+            width: 60vm;
+            height: 60vm;
+            border: 1.2vm solid #333333;
         }
 .inner-circle {
             text-align: center;
             width: 30vmin;
-            height: 30vmin;
+            height: 30vmin;          
             top: 22%;
             left: 21.5%;
             position: absolute;
 	    background: #ece7ee;
             border-radius: 70%;  
             border: 2vmin solid #333333;
+
+            width: 30vm;
+            height: 30vm;
+            border: 2vm solid #333333;
         }
 .strict {
             width: 3.4vmin;
-            height: 3.4vmin;
+            height: 3.4vmin;           
             text-align: center;
             background: yellow;
             position: absolute;
@@ -34,7 +42,13 @@
             left: 67.6%;
             border-radius: 2.4vmin;
             border: 0.4vmin solid #333333;
-            box-shadow: 0vw 0vw 0.2vmin 0.2vmin #333333;
+            box-shadow: 0vmin 0vmin 0.2vmin 0.2vmin #333333;
+
+            width: 3.4vm;
+            height: 3.4vm;
+            border-radius: 2.4vm;
+            border: 0.4vm solid #333333;
+            box-shadow: 0v 0vm m0.2vm 0.2vm #333333;
         }
 .start {
             width: 3.4vmin;
@@ -47,6 +61,12 @@
             border-radius: 2.4vmin;
             border: 0.4vmin solid #333333;
             box-shadow: 0vmin 0vmin 0.2vmin 0.2vmin #333333;
+
+            width: 3.4vm;
+            height: 3.4vm;
+            border-radius: 2.4vm;
+            border: 0.4vm solid #333333;
+            box-shadow: 0vm 0vm 0.2vm 0.2vm #333333;
        }
 .blink {
             width: 0.6vmin;
@@ -57,6 +77,11 @@
             left: 73.5%;
             border-radius: 0.8vmin;
             border: 0.00002vmin solid #333333;
+
+            width: 0.6vm;
+            height: 0.6vm;
+            border-radius: 0.8vm;
+            border: 0.00002vm solid #333333;
         }
 .count {
             width: 6.4vmin;
@@ -69,24 +94,39 @@
             left: 12%;
             border-radius: 1.2vmin;
             border: 0.4vmin solid #333333;
+
+            width: 6.4vm;
+            height: 3.8vm;
+            border-radius: 1.2vm;
+            border: 0.4vm solid #333333;
         }    
 #b1 {
      width: 30vmin;
-     height: 30vmin;
+     height: 30vmin;    
      margin-top: 0;
      background: #00a845;
      border-top-left-radius: 100%;
      border: 1.6vmin solid #333333;
+
+     width: 30vm;
+     height: 30vm;
+     border: 1.6vm solid #333333;
 }
 #b2 {
      width: 30vmin;
-     height: 30vmin;
+     height: 30vmin;    
      position: absolute;
      top: 0vmin;
-     left: 30vmin;
+     left: 30vmin;    
      background: #a10b0f;
      border-top-right-radius: 100%;
      border: 1.6vmin solid #333333;
+
+     width: 30vm;
+     height: 30vm;
+     top: 0vm;
+     left: 30vm;
+     border: 1.6vm solid #333333;
 }
 #b3 {
      width: 30vmin;
@@ -95,30 +135,49 @@
      background: #cda800;
      border-bottom-left-radius: 100%;
      border: 1.6vmin solid #333333;
+
+     width: 30vm;
+     height: 30vm;
+     margin-bottom: 0vm;
+     border: 1.6vm solid #333333;
 }
 #b4 {
      width: 30vmin;
      height: 30vmin;
      position: absolute;
      top: 30vmin;
-     left: 30vmin;
+     left: 30vmin;   
      background: #014891;
      border-bottom-right-radius: 100%;
+     border: 1.6vmin solid #333333;
+
+     width: 30vm;
+     height: 30vm;
+     top: 30vm;
+     left: 30vm;
      border: 1.6vmin solid #333333;
 }
 #b5 {
     width: 3vmin;
-    height: 3vmin;
+    height: 3vmin;   
     background: transparent;
     position: absolute;
     top: 0vmin;
     left: 0vmin;
     border-radius: 75%;
     border: none;
+
+    width: 3vm;
+    height: 3vm;
+    top: 0vm;
+    left: 0vm;
 }
 #b5:active {
     box-shadow: 0vmin 0vmin 0.24vmin 0.24vmin #292929;
     margin-top: 0.1vmin;
+
+    box-shadow: 0vm 0vm 0.24vm 0.24vm #292929;
+    margin-top: 0.1vm;
 }
 #b6 {
      width: 3vmin;
@@ -128,11 +187,19 @@
      top: 0vmin;
      left: 0vmin;
      border-radius: 75%;
-     border: none;;     
+     border: none;; 
+     
+     width: 3vm;
+     height: 3vm;
+     top: 0vm;
+     left: 0vm;
 }
 #b6:active {
     box-shadow: 0vmin 0vmin 0.24vmin 0.24vmin #292929;
     margin-top: 0.1vmin;
+
+    box-shadow: 0vm 0vm 0.24vm 0.24vm #292929;
+    margin-top: 0.1vm;
 }
 .switch {
     width: 4.8vmin;
@@ -143,49 +210,74 @@
     background: #333333; 
     border: 0.4vmin solid #333333;
     border-radius: 0.7vmin;   
+
+    width: 4.8vm;
+    height: 2.4vm;
+    border: 0.4vm solid #333333;
+    border-radius: 0.7vm;   
 }
 #toggle {
     width: 50%;
     height: 2.4vmin;
     position: absolute;
     top: -0.1vmin;
-    left: 0vmin;
+    left: 0vmin;   
     background: #1c8cff;
     border-radius: 30%;
     box-sizing: border-box;
     border: none;
+
+    height: 2.4vm;
+    top: -0.1vm;
+    left: 0vm;
 }
 #toggle2 {
     width: 4.8vmin;
-    height: 2.4vmin;
+    height: 2.4vmin;    
     position: absolute;
     top: 0vmin;
-    left: 0vmin;
+    left: 0vmin;    
     background: transparent;
     box-sizing: border-box;
     border: none; 
+
+    width: 4.8vm;
+    height: 2.4vm;
+    top: 0vmin;
+    left: 0vmin;
 }
 #on-text {
     font-size: 2vmin;
     position: absolute;
     margin-top: -0.2vmin;
-    margin-left: 4vmin;
+    margin-left: 4vmin;    
     color: #333333;
     font-family: 'Oswald';
+
+    font-size: 2vm;
+    margin-top: -0.2vm;
+    margin-left: 4vm;
 }
 #off-text {
-    font-size: 2vmin;
+    font-size: 2vmin;   
     position: absolute;
     margin-top: -0.2vmin;
-    margin-left: -6.4vmin;
+    margin-left: -6.4vmin;   
     color: #333333;
     font-family: 'Oswald';
+
+    font-size: 2vm;
+    margin-top: -0.2vm;
+    margin-left: -6.4vm;
 }
 #simon-text {
     font-size: 6.4vmin;
     font-family: 'Alfa Slab One' , cursive;
     margin-top: 3.2vmin;
     color: #292929;
+
+    font-size: 6.4vm;
+    margin-top: 3.2vm;
 }
 #strict-text {
     font-size: 2vmin;
@@ -193,6 +285,10 @@
     margin-top: 5.3vmin;
     margin-left: -0.4vmin;
     color: #333333;
+
+    font-size: 2vm;
+    margin-top: 5.3vm;
+    margin-left: -0.4vm;
 }
 #start-text {
     font-size: 2vmin;
@@ -200,6 +296,10 @@
     margin-top: 5.3vmin;
     margin-left: -0.2vmin;
     color: #333333;
+
+    font-size: 2vm;
+    margin-top: 5.3vm;
+    margin-left: -0.2vm;
 }
 #count-text {
     font-size: 2vmin;
@@ -208,9 +308,20 @@
     top: 18.34vmin;
     left: 5.2vmin;
     color: #333333;
+
+    font-size: 2vm;
+    top: 18.34vm;
+    left: 5.2vm;
 }
 #cNumber {
     font-size: 3.2vmin;
+
+    font-size: 3.2vmin;
+}
+sup {
+    font-size: 4vmin;
+
+    font-size: 4vm;
 }
 input:focus {
     outline: none;
