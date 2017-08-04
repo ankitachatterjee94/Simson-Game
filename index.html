@@ -10,18 +10,18 @@
     </head>
     <body background="Background.png">
         <div class="outer-circle">
-            <button type="button" id="b1" onclick="buttonClick(1)"></button>
-            <button type="button" id="b2" onclick="buttonClick(2)"></button>
-            <button type="button" id="b3" onclick="buttonClick(3)"></button>
-            <button type="button" id="b4" onclick="buttonClick(4)"></button>
+            <button type="button" id="b1" onclick="game.buttonClick(1)"></button>
+            <button type="button" id="b2" onclick="game.buttonClick(2)"></button>
+            <button type="button" id="b3" onclick="game.buttonClick(3)"></button>
+            <button type="button" id="b4" onclick="game.buttonClick(4)"></button>
             <div class="inner-circle"><p id="simon-text"><b>Simon<sup>&#174</sup></b></p>
                 <div class="strict"><p id="strict-text">STRICT</p>
-                    <button type="button" id="b5" onclick="strict1()"></button>
+                    <button type="button" id="b5" onclick="game.strict1()"></button>
                 </div>
                 <div class="blink" id="blinkT">
                 </div>
                 <div class="start">
-                    <button type="button" id="b6" onclick="start1()"><p id="start-text">START</p>
+                    <button type="button" id="b6" onclick="game.start1()"><p id="start-text">START</p>
                 </div>
                 <div id="cNumber" class="count"></div>
                 <div id="count-text">COUNT
@@ -29,8 +29,8 @@
                 <div class="switch">
                     <span id="on-text">ON</span>
                     <span id="off-text">OFF</span>
-                    <button type="button" id="toggle" onclick="switch1()">
-                    <button type="button" id="toggle2" onclick="switch1()">
+                    <button type="button" id="toggle" onclick="game.switch1()">
+                    <button type="button" id="toggle2" onclick="game.switch1()">
                 </div>
             </div>
         </div>
